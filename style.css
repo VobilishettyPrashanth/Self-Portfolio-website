@@ -1,0 +1,160 @@
+body{
+  background-image: url(/bg4.webp);
+  width: 1500px;
+  height: 2000px;
+  opacity: 0.5;
+}
+.personal{
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 200px;
+}
+.personal a{
+  padding-right: 80px;
+  padding-left: 80px;
+  color: white;
+
+}
+.personal a:hover{
+  color: red;
+}
+b
+{
+  font-size: 70px;
+  color: white;
+  margin-left: 100px;
+}
+h3
+{
+  margin-left: 300px;
+  color: white;
+}
+main
+{
+  margin-top: 300px;
+}
+div a img{
+  height: 100px;
+  width: 100px;
+
+}
+.title
+{
+  color: white;
+}
+.Biography
+{
+  text-align: center;
+  float: left;
+  width: 20px;
+  padding-left: 100px;
+  padding-bottom: 0px;
+  margin: 20px;
+  margin: 1px solid black;
+  margin-left: 50px;
+}
+.head{
+  color: white;
+  margin-left: 120px;
+}
+.head:hover{
+  color: aqua;
+}
+img{
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin-left: 100px;
+}
+div p{
+  font-size: 20px;
+  font-style: oblique;
+}
+#Experience{
+  
+  padding: 0px;
+  margin-top: 100px;
+  color: white;
+}
+#Experience h2, #Certifications h2, #self h2
+{
+  color: red;
+  background-color: bisque;
+}
+#Certifications, #self
+{
+  color: white;
+}
+footer
+{
+  background-color: red;
+  width: 1500px;
+  height: 30px;
+  color: yellow;
+  text-align: center;
+}
+.header-block{
+  display: flex;
+}
+.header-block h1{
+  color: black;
+  text-align: center;
+  margin-left: 100px;
+  text-shadow: 2px 2px 2px rgba(143, 150, 35, 0.582);
+  font-size: 80px;
+  background-color: #faf3f3;
+  width: 1500px;
+}
+#Certifications{
+  margin-bottom: 300px;
+}
+div .images{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+}
+div .images :hover{
+  border: 1px solid #777;
+  transform: scale(2);
+}
+div .images img{
+  width: 60%;
+  height: auto;
+  justify-items: center;
+}
+div .desc{
+  padding: 5px;
+  text-align: center;
+  
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+@media only screen and(max-width:980px){
+  footer
+{
+  background-color: red;
+  width: 1500px;
+  height: 30px;
+  color: yellow;
+  text-align: center;
+}
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+@media only screen and(max-width:365px){
+  .personal{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 160px;
+  }
+  .personal a{
+    padding-right: 80px;
+    padding-left: 80px;
+    color: white;
+  
+  }
+  .personal a:hover{
+    color: red;
+  }
+
+}
